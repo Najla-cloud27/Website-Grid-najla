@@ -1,0 +1,63 @@
+body {
+  background: url(/image/background-kucing.jpeg);
+  font-family: "Chela One", system-ui;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 0 40px;
+}
+
+.grid-item {
+  border: 3px solid black;
+  background-color: #91c8e4;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.grid-item img {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0;
+}
+.grid-item video {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.grid-item video {
+  background-color: black;
+}
+
+h2 {
+  font-style: italic;
+  text-shadow: 2px 2px 5px;
+  color: #3a59d1;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 15px;
+  background-color: #0065f8;
+  color: #0118d8;
+  cursor: pointer;
+  padding: 10px 16px;
+}
+
+button:hover {
+  background-color: #6fe6fc;
+  color: #4ed7f1;
+}
